@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    position: fixed;
+    overflow: auto;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    display: block;
+    margin: 0;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    height: 600px;
+    background-color: lightblue;
+    border-bottom: 1px solid black;
+    box-shadow: 3px 2px 2px gray;
+}
+
+.menu {
+    display: flex;
+}
+
+.pictures {
+    display: flex;
+}
+
+.button {
+    height: 50px;
+    width: 33%;
+    background-color: burlywood;
+    border: solid 1px black;
+}
+
+.left {
+    margin: 0;
+    width: 50%;
+    min-width: 50px;
+    height: 500px;
+    background-color: brown;
+}
+
+.right {
+    margin: 0;
+    width: 50%;
+    min-width: 50px;
+    height: 500px;
+    background-color: wheat;
+}
+
+.image-dog {
+    margin: 10px;
+    width: 80%;
+    height: 80%;
+    background-image: url('dog.jpg');
+    background-size: cover;
+}
+
+.image-cat {
+    margin: 10px;
+    width: 80%;
+    height: 80%;
+    background-image: url('cat.jpg');
+    background-size: cover;
+}
